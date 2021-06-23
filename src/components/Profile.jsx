@@ -1,14 +1,16 @@
+import s from './Profile.module.css';
+
 const Profile = () => {
-    return <div className>
+    return <div className={s.content}>
         <div>
             IMAGE
         </div>
         <div>
             ava+ description
         </div>
-        <div>
+        <div className={s.post}>
             My post
-            <div>
+            <div className={s.item}>
                 New post
             </div>
             <div>
@@ -23,4 +25,4 @@ const Profile = () => {
     </div>
 }
 
-export default Profile
+export default Profile;
