@@ -6,40 +6,19 @@ const Navbar = () => {
             NAVBAR
         </div>
         <div className={s.item}>
-            <a>navbar1</a>
+            <a href="/Profile">Profile</a>
         </div>
         <div className={'${s.item} ${s.active}'}>
-            <a>navbar2</a>
+            <a href="/Messages">Messages</a>
         </div>
         <div className={s.item}>
-            <a>navbar3</a>
+            <a href="/News">News</a>
         </div>
         <div className={'${s.item} ${s.active}'}>
-            <a>navbar4</a>
+            <a href="/Music">Music</a>
         </div>
         <div className={s.item}>
-            <a>navbar5</a>
-        </div>
-        <div className={'${s.item} ${s.active}'}>
-            <a>navbar6</a>
-        </div>
-        <div className={s.item}>
-            <a>navbar6</a>
-        </div>
-        <div className={'${s.item} ${s.active}'}>
-            <a>navbar6</a>
-        </div>
-        <div className={s.item}>
-            <a>navbar6</a>
-        </div>
-        <div className={'${s.item} ${s.active}'}>
-            <a>navbar6</a>
-        </div>
-        <div className={s.item}>
-            <a>navbar6</a>
-        </div>
-        <div className={'${s.item} ${s.active}'}>
-            <a>navbar6</a>
+            <a href="/Settings">Settings</a>
         </div>
     </nav>
 }

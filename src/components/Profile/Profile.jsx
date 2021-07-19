@@ -2,7 +2,7 @@ import s from './Profile.module.css';
 import MyPosts from './MyPosts/MyPosts.jsx';
 
 const Profile = () => {
-    return <div className={s.content}>
+    return <div>
                 <div>
                     PROFILE
                 </div>
