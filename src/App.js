@@ -2,7 +2,7 @@ import './App.css';
 import Header from './components/Header/Header.jsx'
 import Navbar from './components/Navbar/Navbar.jsx'
 import Profile from './components/Profile/Profile.jsx'
-import Dialogs from './components/Dialogs/Dialogs.jsx';
+import Dialogs from './components/Dialogs/Dialogs.jsx'; 
 import News from './components/News/News.jsx';
 import Music from './components/Music/Music.jsx';
 import Settings from './components/Settings/Settings.jsx';
@@ -26,4 +26,4 @@ const App = () => {
   );
 }
 
-export default App;
+export default App; 
