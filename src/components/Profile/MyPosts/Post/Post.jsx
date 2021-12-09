@@ -1,9 +1,6 @@
 import s from './Post.module.css';
 
 const Post = (props) => {
-
-    console.log(props.massage);
-
     return <div className={s.item}>
         <div>
             POST

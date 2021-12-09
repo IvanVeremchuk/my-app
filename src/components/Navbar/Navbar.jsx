@@ -5,8 +5,8 @@ const Navbar = () => {
     return (
         <nav className={s.nav}>
         <div className={'${s.item} ${s.active}'}>
-                <NavLink to="/Profile" activeClassName={s.activeLink} >Profile</NavLink>
-            </div>
+                <NavLink to="/Profile" activeClassName={s.activeLink} >Profile</NavLink> 
+            </div> 
             <div className={'${s.item} ${s.active}'}>
                 <NavLink to="/Dialogs" activeClassName={s.activeLink} >Dialogs</NavLink>
             </div>
@@ -22,5 +22,6 @@ const Navbar = () => {
         </nav>
     )
 }
+//NAVLINK(changing url)
 
 export default Navbar;

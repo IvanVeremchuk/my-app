@@ -1,13 +1,20 @@
+import Preloader from '../../Common/Preloader/Preloader';
 import s from './ProfileInfo.module.css';
+import ProfileStatus from './ProfileStatus.jsx';
 
-const ProfileInfo = () => {
+const ProfileInfo = (props) => { // if profile == null || profile == undefined
+    if (!props.profile ) {
+        return <Preloader />
+    }
+
     return (
             <div>
                 <div>
-                <img scr='https://upload.wikimedia.org/wikipedia/uk/9/99/Ava_poster.jpeg' />
+                    <img scr='https://upload.wikimedia.org/wikipedia/uk/9/99/Ava_poster.jpeg' />
                 </div>
                 <div className={s.descriptionBlock}>
-                    ava + description
+                    <img src={props.profile.photos.large} />
+                    <ProfileStatus status={props.status} updateStatus ={props.updateStatus}/>
                 </div>
             </div>
     )
